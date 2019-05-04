@@ -5,7 +5,7 @@ RUN apt-get update && \
             nodejs \
             npm
 RUN git clone \
-    https://github.com/ladyusa/cpe2.git
+    https://github.com/saacsos/cpe2.git
 WORKDIR /cpe2
 RUN npm install
 EXPOSE 9000
